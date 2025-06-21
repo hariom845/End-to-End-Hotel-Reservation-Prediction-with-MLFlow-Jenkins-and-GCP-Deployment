@@ -1,3 +1,5 @@
 venv/
-testing.py
-manifest-snow-GCP-JSON.json
+testing.py/
+mlruns/
+logs/
+HOTEL_RESERVATION_PREDICTION.egg-info/
