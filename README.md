@@ -1,37 +1,27 @@
-End-to-End Hotel Reservation Prediction
+# End-to-End Hotel Reservation Prediction
 (with MLFlow, Jenkins & GCP Deployment)
 
-📌 Project Overview
+# 📌 Project Overview
 
 This project demonstrates an end-to-end machine learning pipeline for predicting hotel reservations. It covers the entire lifecycle:
-
-Data ingestion & preprocessing
-
-Model training & evaluation
-
-Experiment tracking with MLFlow
-
-Automated CI/CD using Jenkins
-
-Cloud deployment on Google Cloud Platform (GCP)
+- Data ingestion & preprocessing
+- Model training & evaluation
+- Experiment tracking with MLFlow
+- Automated CI/CD using Jenkins
+- Cloud deployment on Google Cloud Platform (GCP)
 
 The goal is to build a scalable, reproducible ML system that can be deployed and monitored in production.
 
-🚀 Features
+# 🚀 Features
 
 ✅ End-to-end ML pipeline (from raw data to predictions)
-
 ✅ Experiment tracking & model versioning with MLFlow
-
 ✅ Automated training, testing & deployment via Jenkins
-
 ✅ Containerized app using Docker
-
 ✅ Deployment on GCP (Cloud Run / GKE / Compute Engine)
-
 ✅ Modular & configurable codebase
 
-🏗️ Architecture
+# 🏗️ Architecture
 
         ┌──────────────┐
         │   Dataset    │
@@ -57,7 +47,7 @@ The goal is to build a scalable, reproducible ML system that can be deployed and
         │     GCP      │  ← Cloud Deployment
         └──────────────┘
 
-📂 Project Structure
+# 📂 Project Structure
 
 ├── application.py        # Flask/FastAPI app for serving predictions
 ├── Dockerfile            # Docker container setup
